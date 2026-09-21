@@ -1,0 +1,107 @@
+Yaroslav@DESKTOP-T2D1M1A MINGW64 ~
+$ cd /c/GitRepo2/tmp2
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo2/tmp2
+$ pwd
+/c/GitRepo2/tmp2
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo2/tmp2
+$ git init
+Initialized empty Git repository in C:/GitRepo2/tmp2/.git/
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo2/tmp2 (master)
+$ cd /c/GitRepo2
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo2
+$ git clone https://github.com/Yroslav1011/GitTest2.git test2
+Cloning into 'test2'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo2
+$ cd test2
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo2/test2 (main)
+$ git remote -v
+origin  https://github.com/Yroslav1011/GitTest2.git (fetch)
+origin  https://github.com/Yroslav1011/GitTest2.git (push)
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo2/test2 (main)
+$ echo "Hello from second repo!" > Hello2.txt
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo2/test2 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Hello2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo2/test2 (main)
+$ git add Hello2.txt
+warning: in the working copy of 'Hello2.txt', LF will be replaced by CRLF the next time Git touches
+it
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo2/test2 (main)
+$ git commit -m "Добавлен файл Hello2 во второй репозиторий"
+[main a7daa6c] Добавлен файл Hello2 во второй репозиторий
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Hello2.txt
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo2/test2 (main)
+$ git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/Yroslav1011/GitTest2.git'
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo2/test2 (main)
+$ git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 360 bytes | 180.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Yroslav1011/GitTest2.git
+   b7e59d7..a7daa6c  main -> main
+branch 'main' set up to track 'origin/main'.
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo2/test2 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo2/test2 (main)
+$ pwd
+/c/GitRepo2/test2
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo2/test2 (main)
+$ ls -a
+./  ../  .git/  Hello2.txt  README.md
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo2/test2 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo2/test2 (main)
+$ git log --oneline
+a7daa6c (HEAD -> main, origin/main, origin/HEAD) Добавлен файл Hello2 во второй репозиторий
+b7e59d7 Initial commit
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo2/test2 (main)
+$ git remote -v
+origin  https://github.com/Yroslav1011/GitTest2.git (fetch)
+origin  https://github.com/Yroslav1011/GitTest2.git (push)
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo2/test2 (main)
+$ git branch
+* main
