@@ -1,0 +1,740 @@
+Yaroslav@DESKTOP-T2D1M1A MINGW64 ~
+$ ls
+'3D Objects'/
+'Add to autorun.exe'*
+ AppData/
+'Application Data'@
+'Automatically search pre-config.exe'*
+'Check for updates.exe'*
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Far30b6699.x64.20260614.msi
+ Favorites/
+ Links/
+'Local Settings'@
+ MediaGet2/
+ Music/
+ NTUSER.DAT
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Run pre-config.exe'*
+'Saved Games'/
+ Searches/
+ SendTo@
+'Set domain list.exe'*
+ Videos/
+ bin/
+ blockcheck.cmd
+ codeblocks-25.03mingw-setup.exe*
+ lists/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ pre-configs/
+ test/
+'Мои документы'@
+ Шаблоны@
+'главное меню'@
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 ~
+$ mkdir c:\tmp
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 ~
+$ cd /c/tmp/
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/tmp
+$ pwd
+/c/tmp
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/tmp
+$ git config --global user.name "Червинский Ярослав"
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/tmp
+$ git config --global user.email "aroslavcervinskij52@gmail.com"
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/tmp
+$ pwd
+/c/tmp
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/tmp
+$ ls
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/tmp
+$ git init
+Initialized empty Git repository in C:/tmp/.git/
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/tmp (master)
+$ ls
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/tmp (master)
+$ ls -a
+./  ../  .git/
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/tmp (master)
+$ cd tmp
+bash: cd: tmp: No such file or directory
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/tmp (master)
+$ cd GitRepo
+bash: cd: GitRepo: No such file or directory
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/tmp (master)
+$ cd
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 ~
+$ cd GitRepo
+bash: cd: GitRepo: No such file or directory
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 ~
+$ ls
+'3D Objects'/
+'Add to autorun.exe'*
+ AppData/
+'Application Data'@
+'Automatically search pre-config.exe'*
+'Check for updates.exe'*
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Far30b6699.x64.20260614.msi
+ Favorites/
+ Links/
+'Local Settings'@
+ MediaGet2/
+ Music/
+ NTUSER.DAT
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Run pre-config.exe'*
+'Saved Games'/
+ Searches/
+ SendTo@
+'Set domain list.exe'*
+ Videos/
+ bin/
+ blockcheck.cmd
+ c:tmp/
+ codeblocks-25.03mingw-setup.exe*
+ lists/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ pre-configs/
+ test/
+'Мои документы'@
+ Шаблоны@
+'главное меню'@
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 ~
+$ cd GitRepo
+bash: cd: GitRepo: No such file or directory
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 ~
+$ cd /c/GitRepo/tmp/
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp (master)
+$ git add README.txt
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.txt
+
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp (master)
+$ git commit -m "Добавлен файл README"
+[master (root-commit) 154e064] Добавлен файл README
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README.txt
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp (master)
+$ git add README.txt
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.txt
+
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp (master)
+$ git commit -m "Изменения в README"
+[master 815d880] Изменения в README
+ 1 file changed, 1 insertion(+)
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp (master)
+$ git log
+commit 815d880c0f67b7f2ad87f175b2228c57b0b1523a (HEAD -> master)
+Author: Червинский Ярослав <aroslavcervinskij52@gmail.com>
+Date:   Sun Nov 8 18:53:03 2026 +0300
+
+    Изменения в README
+
+commit 154e064b6b942ca6dd67a4d74213df1d0a785bb4
+Author: Червинский Ярослав <aroslavcervinskij52@gmail.com>
+Date:   Sun Nov 8 18:49:04 2026 +0300
+
+    Добавлен файл README
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        test.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp (master)
+$ git add README.txt
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp (master)
+$ git add test.txt
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.txt
+        new file:   test.txt
+
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp (master)
+$ git commit -m "Тестовый коммит с 2 изменениями"
+[master 5b81276] Тестовый коммит с 2 изменениями
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+ create mode 100644 test.txt
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp (master)
+$ git log
+commit 5b812763cf4644af7566bffce0aaa3c2ca2d1435 (HEAD -> master)
+Author: Червинский Ярослав <aroslavcervinskij52@gmail.com>
+Date:   Sun Nov 8 18:56:34 2026 +0300
+
+    Тестовый коммит с 2 изменениями
+
+commit 815d880c0f67b7f2ad87f175b2228c57b0b1523a
+Author: Червинский Ярослав <aroslavcervinskij52@gmail.com>
+Date:   Sun Nov 8 18:53:03 2026 +0300
+
+    Изменения в README
+
+commit 154e064b6b942ca6dd67a4d74213df1d0a785bb4
+Author: Червинский Ярослав <aroslavcervinskij52@gmail.com>
+Date:   Sun Nov 8 18:49:04 2026 +0300
+
+    Добавлен файл README
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp (master)
+$ git log -p
+commit 5b812763cf4644af7566bffce0aaa3c2ca2d1435 (HEAD -> master)
+Author: Червинский Ярослав <aroslavcervinskij52@gmail.com>
+Date:   Sun Nov 8 18:56:34 2026 +0300
+
+    Тестовый коммит с 2 изменениями
+
+diff --git a/README.txt b/README.txt
+index b45ef6f..7e9b273 100644
+--- a/README.txt
++++ b/README.txt
+@@ -1 +1 @@
+-Hello, World!
+\ No newline at end of file
++Hello, World!!!!
+\ No newline at end of file
+diff --git a/test.txt b/test.txt
+new file mode 100644
+index 0000000..3b12464
+--- /dev/null
++++ b/test.txt
+@@ -0,0 +1 @@
++TEST
+\ No newline at end of file
+
+commit 815d880c0f67b7f2ad87f175b2228c57b0b1523a
+Author: Червинский Ярослав <aroslavcervinskij52@gmail.com>
+Date:   Sun Nov 8 18:53:03 2026 +0300
+
+    Изменения в README
+
+diff --git a/README.txt b/README.txt
+index e69de29..b45ef6f 100644
+--- a/README.txt
++++ b/README.txt
+@@ -0,0 +1 @@
++Hello, World!
+\ No newline at end of file
+
+commit 154e064b6b942ca6dd67a4d74213df1d0a785bb4
+Author: Червинский Ярослав <aroslavcervinskij52@gmail.com>
+Date:   Sun Nov 8 18:49:04 2026 +0300
+
+    Добавлен файл README
+
+diff --git a/README.txt b/README.txt
+new file mode 100644
+index 0000000..e69de29
+(END)
+commit 5b812763cf4644af7566bffce0aaa3c2ca2d1435 (HEAD -> master)
+Author: Червинский Ярослав <aroslavcervinskij52@gmail.com>
+Date:   Sun Nov 8 18:56:34 2026 +0300
+
+    Тестовый коммит с 2 изменениями
+
+diff --git a/README.txt b/README.txt
+index b45ef6f..7e9b273 100644
+--- a/README.txt
++++ b/README.txt
+@@ -1 +1 @@
+-Hello, World!
+\ No newline at end of file
++Hello, World!!!!
+\ No newline at end of file
+diff --git a/test.txt b/test.txt
+new file mode 100644
+index 0000000..3b12464
+--- /dev/null
++++ b/test.txt
+@@ -0,0 +1 @@
++TEST
+\ No newline at end of file
+
+commit 815d880c0f67b7f2ad87f175b2228c57b0b1523a
+Author: Червинский Ярослав <aroslavcervinskij52@gmail.com>
+:
+commit 5b812763cf4644af7566bffce0aaa3c2ca2d1435 (HEAD -> master)
+Author: Червинский Ярослав <aroslavcervinskij52@gmail.com>
+Date:   Sun Nov 8 18:56:34 2026 +0300
+
+    Тестовый коммит с 2 изменениями
+
+diff --git a/README.txt b/README.txt
+index b45ef6f..7e9b273 100644
+--- a/README.txt
++++ b/README.txt
+@@ -1 +1 @@
+-Hello, World!
+\ No newline at end of file
++Hello, World!!!!
+\ No newline at end of file
+diff --git a/test.txt b/test.txt
+new file mode 100644
+index 0000000..3b12464
+--- /dev/null
++++ b/test.txt
+@@ -0,0 +1 @@
++TEST
+\ No newline at end of file
+
+commit 815d880c0f67b7f2ad87f175b2228c57b0b1523a
+Author: Червинский Ярослав <aroslavcervinskij52@gmail.com>
+Date:   Sun Nov 8 18:53:03 2026 +0300
+
+    Изменения в README
+
+diff --git a/README.txt b/README.txt
+index e69de29..b45ef6f 100644
+--- a/README.txt
++++ b/README.txt
+@@ -0,0 +1 @@
++Hello, World!
+\ No newline at end of file
+
+commit 154e064b6b942ca6dd67a4d74213df1d0a785bb4
+Author: Червинский Ярослав <aroslavcervinskij52@gmail.com>
+Date:   Sun Nov 8 18:49:04 2026 +0300
+
+    Добавлен файл README
+
+diff --git a/README.txt b/README.txt
+new file mode 100644
+index 0000000..e69de29
+...skipping...
++TEST
+\ No newline at end of file
+
+commit 815d880c0f67b7f2ad87f175b2228c57b0b1523a
+Author: Червинский Ярослав <aroslavcervinskij52@gmail.com>
+Date:   Sun Nov 8 18:53:03 2026 +0300
+
+    Изменения в README
+
+diff --git a/README.txt b/README.txt
+index e69de29..b45ef6f 100644
+--- a/README.txt
++++ b/README.txt
+@@ -0,0 +1 @@
++Hello, World!
+\ No newline at end of file
+
+commit 154e064b6b942ca6dd67a4d74213df1d0a785bb4
+Author: Червинский Ярослав <aroslavcervinskij52@gmail.com>
+Date:   Sun Nov 8 18:49:04 2026 +0300
+
+    Добавлен файл README
+
+diff --git a/README.txt b/README.txt
+new file mode 100644
+index 0000000..e69de29
+...skipping...
+commit 5b812763cf4644af7566bffce0aaa3c2ca2d1435 (HEAD -> master)
+Author: Червинский Ярослав <aroslavcervinskij52@gmail.com>
+Date:   Sun Nov 8 18:56:34 2026 +0300
+
+    Тестовый коммит с 2 изменениями
+
+diff --git a/README.txt b/README.txt
+index b45ef6f..7e9b273 100644
+--- a/README.txt
++++ b/README.txt
+@@ -1 +1 @@
+-Hello, World!
+\ No newline at end of file
++Hello, World!!!!
+\ No newline at end of file
+diff --git a/test.txt b/test.txt
+new file mode 100644
+index 0000000..3b12464
+--- /dev/null
++++ b/test.txt
+@@ -0,0 +1 @@
++TEST
+\ No newline at end of file
+
+commit 815d880c0f67b7f2ad87f175b2228c57b0b1523a
+Author: Червинский Ярослав <aroslavcervinskij52@gmail.com>
+Date:   Sun Nov 8 18:53:03 2026 +0300
+
+    Изменения в README
+
+diff --git a/README.txt b/README.txt
+index e69de29..b45ef6f 100644
+--- a/README.txt
++++ b/README.txt
+@@ -0,0 +1 @@
++Hello, World!
+\ No newline at end of file
+
+commit 154e064b6b942ca6dd67a4d74213df1d0a785bb4
+Author: Червинский Ярослав <aroslavcervinskij52@gmail.com>
+Date:   Sun Nov 8 18:49:04 2026 +0300
+
+    Добавлен файл README
+
+diff --git a/README.txt b/README.txt
+new file mode 100644
+index 0000000..e69de29
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp (master)
+$ git clone https://github.com/Yroslav1011/GitTest.git test
+Cloning into 'test'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp (master)
+$ cd /c/GitRepo/tmp/test
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp/test (main)
+$ git remove -v
+git: 'remove' is not a git command. See 'git --help'.
+
+The most similar command is
+        remote
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp/test (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp/test (main)
+$ git add Hello.txt
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp/test (main)
+$ git commt -m "Hello"
+git: 'commt' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp/test (main)
+$ git push
+Everything up-to-date
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp/test (main)
+$ cd
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 ~
+$ cd /c/tmp/
+bash: cd: /c/tmp/: No such file or directory
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 ~
+$ cd /c/GitRepo/tmp/
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp (master)
+$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+To push to multiple remotes at once, configure a remote group using
+
+    git config remotes.<groupname> "<remote1> <remote2>"
+
+and then push using the group name
+
+    git push <groupname>
+
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp (master)
+$ cd /c/GitRepo/tmp/test/
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp/test (main)
+$ git remote -v
+origin  https://github.com/Yroslav1011/GitTest.git (fetch)
+origin  https://github.com/Yroslav1011/GitTest.git (push)
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp/test (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Hello.txt
+
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp/test (main)
+$ git add Hello.txt
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp/test (main)
+$ git commit -m "Hello"
+[main a72ab64] Hello
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Hello.txt
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp/test (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 322 bytes | 161.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Yroslav1011/GitTest.git
+   9162d94..a72ab64  main -> main
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp/test (main)
+$ Yroslav1011
+bash: Yroslav1011: command not found
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp/test (main)
+$ cd vtoroi
+bash: cd: vtoroi: No such file or directory
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp/test (main)
+$ cd
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 ~
+$ cd /c/GitRepo/tmp/vtoroi/
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp/vtoroi (master)
+$ pwd
+/c/GitRepo/tmp/vtoroi
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp/vtoroi (master)
+$ git init
+Initialized empty Git repository in C:/GitRepo/tmp/vtoroi/.git/
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp/vtoroi (master)
+$ ls
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp/vtoroi (master)
+$ ls -a
+./  ../  .git/
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp/vtoroi (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp/vtoroi (master)
+$ ls
+README.txt
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp/vtoroi (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp/vtoroi (master)
+$ git add README.txt
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp/vtoroi (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.txt
+
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp/vtoroi (master)
+$ git commit -m "коммит для 2 репозитория"
+[master (root-commit) da9c75d] коммит для 2 репозитория
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.txt
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp/vtoroi (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp/vtoroi (master)
+$ git remote add origin https://github.com/Yroslav1011/GitTest2.git
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp/vtoroi (master)
+$ git remote -v
+origin  https://github.com/Yroslav1011/GitTest2.git (fetch)
+origin  https://github.com/Yroslav1011/GitTest2.git (push)
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp/vtoroi (master)
+$ git branch -M main
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp/vtoroi (main)
+$ git push
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp/vtoroi (main)
+$ git push -u origin main
+To https://github.com/Yroslav1011/GitTest2.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/Yroslav1011/GitTest2.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp/vtoroi (main)
+$ git pull origin main --rebase
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 870 bytes | 72.00 KiB/s, done.
+From https://github.com/Yroslav1011/GitTest2
+ * branch            main       -> FETCH_HEAD
+ * [new branch]      main       -> origin/main
+Successfully rebased and updated refs/heads/main.
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp/vtoroi (main)
+$ git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 357 bytes | 357.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Yroslav1011/GitTest2.git
+   2eeaa09..f8d3aee  main -> main
+branch 'main' set up to track 'origin/main'.
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp/vtoroi (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Yaroslav@DESKTOP-T2D1M1A MINGW64 /c/GitRepo/tmp/vtoroi (main)
